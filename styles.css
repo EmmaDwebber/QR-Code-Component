@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 12px 12px 15px;
+  max-width: 275px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.text {
+  padding: 15px 8px;
+}
+
+.first {
+  font-size: 15px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+.scan {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  padding-top: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
